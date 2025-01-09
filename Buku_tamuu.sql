@@ -1,0 +1,1 @@
+DESC buku_tamu;
