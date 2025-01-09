@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitung Kuadrat</title>
+</head>
+<body>
+    <h1>Hitung Kuadrat dengan JavaScript</h1>
+    <p>Hasil kuadrat dari angka 7 adalah: <span id="hasil"></span></p>
+
+    <script>
+        function hitungKuadrat(angka) {
+            return angka * angka;
+        }
+
+        // Memanggil fungsi dan menampilkan hasil di halaman
+        const hasil = hitungKuadrat(7);
+        document.getElementById("hasil").textContent = hasil;
+    </script>
+</body>
+</html>
